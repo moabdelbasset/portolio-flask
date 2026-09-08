@@ -1,0 +1,13 @@
+{
+  "name": "M. Abdelbasset",
+  "role": "Infrastructure · Automation · GitOps",
+  "intro": "Building infrastructure. Making delivery repeatable.",
+  "bio": "This is my engineering lab: a place to build, document, and improve the systems behind reliable application delivery.",
+  "about": "I learn by building real systems. My current focus is a hands-on OpenShift lab on a Hetzner dedicated server, with three virtual machines running on KVM/libvirt. Here, I document the decisions, experiments, and lessons along the way.",
+  "github": "https://github.com/moabdelbasset",
+  "skills": ["Linux", "OpenShift", "KVM / libvirt", "Python / Flask", "GitHub Actions", "Argo CD", "Kustomize", "Git"],
+  "projects": [
+    {"number": "01", "title": "OpenShift home lab", "status": "Working lab", "description": "A three-node OpenShift lab on a Hetzner dedicated server. Built on KVM/libvirt, with installation notes documenting the setup.", "tags": ["OpenShift", "Hetzner", "KVM / libvirt"], "url": "https://github.com/moabdelbasset/home-lab/wiki/Install-Openshift-Cluster-on-Hetzner-server", "link_label": "Read installation notes"},
+    {"number": "02", "title": "GitOps application delivery", "status": "In progress", "description": "Taking this Flask portfolio from local development to OpenShift. Planned next: automated image builds, reviewed promotions, self-healing, and recovery experiments.", "tags": ["Flask", "Argo CD", "GitHub Actions"], "url": null, "link_label": null}
+  ]
+}
