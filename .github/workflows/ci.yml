@@ -26,3 +26,14 @@ jobs:
 
       - name: Run tests
         run: python -m unittest discover -s tests -v
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: source code checkout
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build --tag portfolio:ci .
