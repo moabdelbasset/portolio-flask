@@ -1,6 +1,6 @@
 {
-  "name": "M. Abdelbasset",
-  "role": "Infrastructure · Automation · GitOps",
+  "name": "Mohamed Abdelbasset",
+  "role": "Infrastructure · Automation · DevOps",
   "intro": "Building infrastructure. Making delivery repeatable.",
   "bio": "This is my engineering lab: a place to build, document, and improve the systems behind reliable application delivery.",
   "about": "I learn by building real systems. My current focus is a hands-on OpenShift lab on a Hetzner dedicated server, with three virtual machines running on KVM/libvirt. Here, I document the decisions, experiments, and lessons along the way.",
